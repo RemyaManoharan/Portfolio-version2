@@ -44,7 +44,7 @@ export const portfolioData = {
       position: 'Full Stack Developer',
       duration: '2023 - Present',
       description:
-        'Played a key role in the development of CostBits’ comprehensive analytics solution for procurement and cost control, where I utilize my expertise in frontend development and integrate it with financial acumen.Optimized UI load times by 60% and enhanced user satisfaction scores by 20% through continuous performance optimization, testing, and code refactoring to ensure maintainability',
+        'Full-stack development of procurement analytics SaaS platform serving enterprise clients. Architected and implemented RESTful APIs with C#, LINQ, and PostgreSQL backend, while building responsive dashboards using React, TypeScript, and Tailwind CSS. Delivered complex data visualization features with Nivo charts and AG Grid. Spearheaded testing strategy achieving 92% coverage and optimized application performance by 60%, significantly improving user experience for procurement and finance teams.',
       technologies: [
         'React',
         'TypeScript',
