@@ -32,7 +32,7 @@ export const portfolioData = {
       'HTML5',
       'CSS3',
     ],
-    backend: ['C3', 'Node.js', 'Express', 'Python', 'Django', 'REST APIs'],
+    backend: ['C#', 'Node.js', 'Express', 'Python', 'Django', 'REST APIs'],
     database: ['MongoDB', 'PostgreSQL', 'MySQL'],
     tools: ['Git', 'Docker', 'AWS', 'VS Code'],
   },
