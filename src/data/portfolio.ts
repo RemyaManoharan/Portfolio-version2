@@ -1,6 +1,6 @@
 export const portfolioData = {
   personal: {
-    name: 'Remya manoharan',
+    name: 'Remya Manoharan',
     title: 'Full Stack Developer',
     email: 'remyajinil@outlook.com',
     phone: '+4571406956',
@@ -107,7 +107,7 @@ export const portfolioData = {
       ],
       github: 'https://github.com/RemyaManoharan/chatai-app-aws',
       demo: '',
-      // image: "/assets/images/project1.jpg"
+     image: "/assets/images/chatbot.png",
     },
     {
       id: 2,
@@ -208,7 +208,7 @@ export const portfolioData = {
       degree: 'Masters in Business Administration',
       duration: '2014-2016',
       description:
-        'Passed out with distinction, and received a CGPA of 8.6 out of 10.',
+        'Passed out with distinction',
     },
   ],
 
@@ -225,17 +225,17 @@ export const portfolioData = {
       id: 2,
       name: 'Data Analytics',
       provider: 'Professional Course - Devoteam + HackYourFuture',
-      duration: '2025',
+      duration: '2025 (Completed)',
       description:
-        'Comprehensive training in data analysis, visualization, and statistical methods using Power BI, Alteryx.',
+        'Comprehensive training in data analysis, visualization, and statistical methods using Power BI, Alteryx. Successfully completed and certified.',
     },
     {
       id: 3,
       name: 'AWS Cloud Computing and Generative AI',
       provider: 'Amazon Web Services',
-      duration: '2025- December',
+      duration: '2025- December (Completed)',
       description:
-        'Cloud computing fundamentals, AWS services like EC2, S3, Lambda, Serverless, etc., and cloud architecture best practices.',
+        'Cloud computing fundamentals, AWS services like EC2, S3, Lambda, Serverless, etc., and cloud architecture best practices. Successfully completed and certified.',
     },
   ],
 };
