@@ -1,5 +1,6 @@
 import React from 'react';
 import { FaLinkedin, FaGithub } from 'react-icons/fa';
+import { TypeAnimation } from 'react-type-animation';
 import { portfolioData } from '../../data/portfolio';
 
 const Hero: React.FC = () => {
@@ -41,8 +42,23 @@ const Hero: React.FC = () => {
               {personal.name}
             </h1>
 
-            <h2 className="text-2xl md:text-3xl text-primary font-semibold mb-3 animate-fade-in-up animation-delay-400">
-              {personal.title}
+            <h2 className="text-2xl md:text-3xl text-primary font-semibold mb-3 min-h-[40px] md:min-h-[48px] animate-fade-in-up animation-delay-400">
+              <TypeAnimation
+                sequence={[
+                  'Full Stack Developer',
+                  2000,
+                  'Frontend Focused',
+                  2000,
+                  'Software Engineer',
+                  2000,
+                ]}
+                wrapper="span"
+                speed={50}
+                deletionSpeed={80}
+                repeat={Infinity}
+                cursor={true}
+                className="inline-block"
+              />
             </h2>
 
             <p className="text-xl md:text-2xl text-text-secondary mb-6 animate-fade-in-up animation-delay-600">

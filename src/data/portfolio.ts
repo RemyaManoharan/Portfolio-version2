@@ -4,7 +4,7 @@ export const portfolioData = {
     title: 'Full Stack Developer',
     email: 'remyajinil@outlook.com',
     phone: '+4571406956',
-    location: 'Vallensbæk, Denmark',
+    location: 'Vallensbæk,2665, Denmark',
     bio: 'Building scalable, user-focused applications with a strong foundation in finance and analytics.',
     image: '/assets/images/remya.png',
   },
@@ -20,7 +20,7 @@ export const portfolioData = {
       "With a unique blend of technical expertise and financial acumen, I bring a distinctive perspective to front-end development. My journey to programming restarted again with a fascination of how technology can transform complex financial data into intuitive, user friendly interfaces. Holding a B. Tech in Computer Science and Engineering and an MBA in Banking and Finance, I have a deeper understanding of both the technical and business aspects of software development.",
       "I thrive in collaborative environments where innovation and continuous learning are encouraged. My proficiency in Agile Scrum Methodology ensures that project is delivered efficiently and effectively, meeting both client and business needs.",
     ],
-    cvUrl: '/assets/documents/Remya_CV.pdf',
+    cvUrl: '/assets/documents/remya_manoharan_fullstack.pdf',
   },
 
   skills: {
@@ -225,17 +225,17 @@ export const portfolioData = {
       id: 2,
       name: 'Data Analytics',
       provider: 'Professional Course - Devoteam + HackYourFuture',
-      duration: '2025 (Completed)',
+      duration: '2025',
       description:
-        'Comprehensive training in data analysis, visualization, and statistical methods using Power BI, Alteryx. Successfully completed and certified.',
+        'Comprehensive training in data analysis, visualization, and statistical methods using Power BI, Alteryx.',
     },
     {
       id: 3,
       name: 'AWS Cloud Computing and Generative AI',
       provider: 'Amazon Web Services',
-      duration: '2025- December (Completed)',
+      duration: '2025- December',
       description:
-        'Cloud computing fundamentals, AWS services like EC2, S3, Lambda, Serverless, etc., and cloud architecture best practices. Successfully completed and certified.',
+        'Cloud computing fundamentals, AWS services like EC2, S3, Lambda, Serverless, etc., and cloud architecture best practices.',
     },
   ],
 };

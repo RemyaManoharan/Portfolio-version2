@@ -68,7 +68,7 @@ const Projects: React.FC = () => {
 
           {/* Tech Tags */}
           <div className="flex flex-wrap gap-2 pt-2">
-            {project.technologies.slice(0, 4).map((tech: string, index: number) => (
+            {project.technologies.map((tech: string, index: number) => (
               <span
                 key={index}
                 className="px-3 py-1 rounded-full bg-primary/10 text-primary text-xs border border-primary/30"
@@ -76,11 +76,6 @@ const Projects: React.FC = () => {
                 {tech}
               </span>
             ))}
-            {project.technologies.length > 4 && (
-              <span className="px-3 py-1 rounded-full bg-primary/10 text-primary text-xs border border-primary/30">
-                +{project.technologies.length - 4} more
-              </span>
-            )}
           </div>
         </div>
       </div>
