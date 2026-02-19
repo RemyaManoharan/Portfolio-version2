@@ -2,7 +2,7 @@
 import React, { useState, useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import { HiMail, HiPhone, HiLocationMarker, HiOutlinePaperAirplane, HiRefresh } from 'react-icons/hi';
-import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa';
+import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import { portfolioData } from '../../data/portfolio';
 
 const EMAIL_REGEX = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
@@ -56,6 +56,7 @@ const Contact: React.FC = () => {
       setTimeout(() => setSuccess(''), 5000);
       // Smooth scroll to top of form
       formRef.current?.scrollIntoView({ behavior: 'smooth' });
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
     } catch (err) {
       setError('Failed to send message. Please try again.');
       setTimeout(() => setError(''), 5000);
@@ -122,11 +123,6 @@ const Contact: React.FC = () => {
               {social.linkedin && (
                 <a href={social.linkedin} target="_blank" rel="noopener noreferrer" className="bg-dark-primary p-3 rounded-lg text-primary hover:bg-primary hover:text-dark-primary transition-colors" aria-label="LinkedIn">
                   <FaLinkedin size={22} />
-                </a>
-              )}
-              {social.twitter && (
-                <a href={social.twitter} target="_blank" rel="noopener noreferrer" className="bg-dark-primary p-3 rounded-lg text-primary hover:bg-primary hover:text-dark-primary transition-colors" aria-label="Twitter">
-                  <FaTwitter size={22} />
                 </a>
               )}
             </div>
