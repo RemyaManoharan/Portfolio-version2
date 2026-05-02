@@ -215,6 +215,14 @@ export const portfolioData = {
   certifications: [
     {
       id: 1,
+      name: 'Salesforce Platform Foundation',
+      provider: 'Salesforce',
+      duration: 'April, 2026',
+      description:
+        'Foundational knowledge of the Salesforce platform, including core CRM features, customization, and automation capabilities.',
+    },
+    {
+      id: 2,
       name: 'Full Stack Development Bootcamp',
       provider: 'HackYourFuture, Denmark',
       duration: '2023',
@@ -222,7 +230,7 @@ export const portfolioData = {
         'Intensive bootcamp covering modern web development technologies including React, Node.js, and database management.',
     },
     {
-      id: 2,
+      id: 3,
       name: 'Data Analytics',
       provider: 'Professional Course - Devoteam + HackYourFuture',
       duration: '2025',
@@ -230,7 +238,7 @@ export const portfolioData = {
         'Comprehensive training in data analysis, visualization, and statistical methods using Power BI, Alteryx.',
     },
     {
-      id: 3,
+      id: 4,
       name: 'AWS Cloud Computing and Generative AI',
       provider: 'Amazon Web Services',
       duration: '2025- December',
